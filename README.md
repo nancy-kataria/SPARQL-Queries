@@ -2,6 +2,34 @@
 
 Demonstrates working with RDF and making SPARQL Queries using RDFLib.
 
+## Setting it up
+
+1. Create the environment
+
+```
+# On Windows
+python -m venv venv
+
+# On Mac/Linux
+python3 -m venv venv
+```
+
+2. Activate it
+
+```
+# On Windows
+.\venv\Scripts\activate
+
+# On Mac/Linux
+source venv/bin/activate
+```
+
+3. Install Semantic Web tools
+
+```
+pip install rdflib
+```
+
 ### Resources:
 
 1. [Semantic Web](https://en.wikipedia.org/wiki/Semantic_Web)
