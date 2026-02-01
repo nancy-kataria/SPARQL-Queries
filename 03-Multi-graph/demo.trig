@@ -1,0 +1,12 @@
+@prefix ex: <http://www.example.org/vocabulary#> .
+@prefix : <http://www.example.org/example#> .
+
+:graph1 {
+    :alice a ex:Person ;
+           ex:name "Alice" .
+}
+
+:graph2 {
+    :bob a ex:Person ;
+         ex:name "Bob" .
+}
